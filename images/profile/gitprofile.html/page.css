@@ -1,0 +1,150 @@
+:root{
+    --color: #a80f5c;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-header {
+    background-image: url(images/bg.jpg);
+    text-align: center;
+    background-color: #24292e;
+    color: #fff;
+    padding: 40px 74px;
+}
+
+.profile-image {
+    margin-right: 680px;
+    width: 350px;
+    border: 5px solid #fff;
+    margin-bottom: 16px;
+}
+
+.profile-headline {
+    text-align: center;
+    background-color: var(--color);
+    color: antiquewhite;
+    margin: 0;
+    padding: 10px;
+}
+
+
+.skills, .hobbies {
+    margin-top: 34px;
+    margin-bottom: 34px;
+    text-align: center;
+}
+.profile-content ul{
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.profile-content ul li {
+    margin: 0;
+    padding: 0;
+  }
+
+h2 {
+    font-size: 4em;
+    text-align: center;
+    color: var(--color);
+    border-bottom: 2px solid var(--color);
+    padding-bottom: 40px;
+    margin-bottom: 10px;
+}
+
+h6{
+    font-family: 'Overlock', cursive;
+}
+
+.hob-ul {
+    /* display: none; */
+    list-style-type: none;
+    padding: 0;
+    background-color: #fff;
+}
+
+.hob-ul,.hob-li {
+    display: inline-block;
+    border: 1px solid #ddd;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+    color: var(--color);
+}
+
+.profile-subheadline{
+    text-shadow: 2px 2px var(--color);
+    text-align: left;
+    font-size: 19px;
+    font-style: Serif;
+    margin-top: -278px;
+    padding-left: 586px;
+    color: antiquewhite;
+    width: 100%;
+    
+}
+
+a:link {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: pink;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  .navtest{
+    background-color: var(--color);
+    padding: 0px;
+    text-align: center;
+  }
+
+  .setskills{
+    background-color: var(--color);
+    padding-left: 500px;
+  }
+
+  .techno{
+    display: inline-flex;
+    /* display: block; */
+    flex-direction: column;
+    padding: 35px;
+    /* background-color: black; */
+  }
+  tr {
+    display: inline-flex;
+    flex-direction: row;
+  }
+  ul.a {
+    list-style-type: square;
+
+   
+  }
+  ul li::marker {
+    color: var(--color);
+    font-size: 1.5em;
+  }
+  
+

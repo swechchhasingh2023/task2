@@ -1,0 +1,60 @@
+h1{
+    text-align: center;
+}
+.images{
+    height: 220px;
+    width: 100%;
+}
+.img{
+    background-attachment: fixed;
+}
+/* first way to wrap with div and give below pro **/
+.main{
+    display: inline-block;
+}
+
+.div{
+    width: 20%;   
+    background: aqua;
+    float: left;
+    margin-left: 3%;
+    padding: 10px;
+   
+}
+#text-overflow{
+    overflow: scroll;
+    height: 200px;
+    
+}
+.pink{
+    background: rgb(212, 76, 121);
+}
+.brown{
+    background: rgb(87, 92, 87);
+}
+.gray{
+    background: rgb(76, 63, 63);
+}
+
+.flatcard{
+    height: 300px;
+    width: 80%;
+    background: lightsteelblue;
+    margin-left: 10%;
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.imagesdiv{
+    width: 25%;
+}
+.textdiv{
+    width: 65%;
+    margin: 3%;
+}
+
+.imagesdiv> img{
+    height: 100%;
+    width: 100%;
+}
